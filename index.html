@@ -48,6 +48,16 @@
 		-webkit-border-radius: 10px ;
 	}
 	
+	.cropped {
+		width: 150px; /* width of container */
+		height: 150px; /* height of container */
+		overflow: hidden;
+	}
+	
+	.cropped img {
+	    margin: -10px 0px 0px -180px;
+	}
+	
 	a:link,a:visited
 	{
 		color: #1367a7;
@@ -187,7 +197,9 @@
 			<center>
 				<tr>
 					<td align=center width=400px>
-						<img class="round" style="width:300px; margin-top: 92px;" src="./resources/origami_full_jpeg4.gif"/>
+						<div class="cropped">
+							<img src="./resources/origami_full_jpeg4.gif"/>
+						</div>
 					</td>
 					<td align=center width=400px>
 						<img class="round" style="width:300px" src="./resources/origami_full_jpeg2000_120.gif"/>
@@ -204,7 +216,7 @@
 				</tr>
 				<tr>
 					<td align=center width=400px>
-						<img class="round" style="width:300px; margin-top: 92px;" src="./resources/origami_zoomed_jpeg4.gif"/>
+						<img class="round" style="width:300px" src="./resources/origami_zoomed_jpeg4.gif"/>
 					</td>
 					<td align=center width=400px>
 						<img class="round" style="width:300px" src="./resources/origami_zoomed_jpeg2000_120.gif"/>
