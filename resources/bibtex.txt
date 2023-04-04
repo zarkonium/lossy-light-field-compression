@@ -1,4 +1,4 @@
-@ phdthesis{valtchev2022LFCompression,
+@phdthesis{valtchev2022LFCompression,
   title={Lossy Light Field Compression Using Modern Deep Learning and Domain Randomization Techniques},
   author={Valtchev, Svetozar Zarko},
   publisher={YorkSpace Institutional Repository},
